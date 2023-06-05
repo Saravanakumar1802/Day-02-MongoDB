@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "63ea1c924d617c5c437422a1"
+  },
+  "User_Id": 1,
+  "StudentName": "Vijay"
+},{
+  "_id": {
+    "$oid": "63ea1c924d617c5c437422a2"
+  },
+  "User_Id": 2,
+  "StudentName": "John"
+},{
+  "_id": {
+    "$oid": "63ea1c924d617c5c437422a3"
+  },
+  "User_Id": 3,
+  "StudentName": "Vivek"
+},{
+  "_id": {
+    "$oid": "63ea1c924d617c5c437422a4"
+  },
+  "User_Id": 4,
+  "StudentName": "Prabha"
+},{
+  "_id": {
+    "$oid": "63ea1c924d617c5c437422a5"
+  },
+  "User_Id": 5,
+  "StudentName": "Kannan"
+}]

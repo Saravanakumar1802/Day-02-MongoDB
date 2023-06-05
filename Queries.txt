@@ -1,0 +1,50 @@
+
+1. Find all the topics and tasks:
+db.Topics.aggregate([
+    {$lookup:{
+        from:'Tasks',
+        localField:'Topic',
+        foreignField:'Topic',as:'newtasks'}}
+    ])
+
+
+*******************----------------------------------------------------*************************
+
+2. Find all the company drives which appeared between for drives:
+db.company Drives.aggregate([{$project:{_id:0, companyName:1}}])
+
+*******************----------------------------------------------------*************************
+
+3. Find all the company drives and students who are appeared for the placement.
+db.Users.aggregate([{$project:{_id:0, StudentName:1}}])
+db.company Drives.aggregate([{$project:{_id:0, companyName:1}}])
+
+*******************----------------------------------------------------*************************
+
+4. Find the topics solved by the user in codekata
+db.company Drives.aggregate([{$project:{_id:0, companyName:1}}])
+
+*******************----------------------------------------------------*************************
+
+5. Find all the mentors List:
+db.Mentors.find({},{_id:0, MentorName:1})
+
+*******************----------------------------------------------------*************************
+
+
+6.Find the number of users who are absent
+db.employees.aggregate(
+    [
+        {
+            $lookup: {
+                from: 'user',
+                localField : 'name',
+                foreignField: 'name',
+                as: 'User Data'
+            }
+        },{$match:{Status:'Absent'}}
+    ]
+)
+
+
+*******************----------------------------------------------------*************************

@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "63ea1b534d617c5c43742288"
+  },
+  "companyName": "Cognizant",
+  "Date": "2023-02-13"
+},{
+  "_id": {
+    "$oid": "63ea1b534d617c5c43742289"
+  },
+  "companyName": "Frei",
+  "Date": "2023-02-13"
+},{
+  "_id": {
+    "$oid": "63ea1b534d617c5c4374228a"
+  },
+  "companyName": "Neuzant",
+  "Date": "2023-02-13"
+},{
+  "_id": {
+    "$oid": "63ea1b534d617c5c4374228b"
+  },
+  "companyName": "Canara",
+  "Date": "2023-02-13"
+},{
+  "_id": {
+    "$oid": "63ea1b534d617c5c4374228c"
+  },
+  "companyName": "SC Bank",
+  "Date": "2023-02-13"
+}]

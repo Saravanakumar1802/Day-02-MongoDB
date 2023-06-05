@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "63ea1ae14d617c5c4374227f"
+  },
+  "User_Id": 1,
+  "Topic": "Javascript",
+  "Codekata": "done"
+},{
+  "_id": {
+    "$oid": "63ea1ae14d617c5c43742280"
+  },
+  "User_Id": 2,
+  "Topic": "Javascript",
+  "Codekata": "done"
+},{
+  "_id": {
+    "$oid": "63ea1ae14d617c5c43742281"
+  },
+  "User_Id": 3,
+  "Topic": "Javascript",
+  "Codekata": "done"
+},{
+  "_id": {
+    "$oid": "63ea1ae14d617c5c43742282"
+  },
+  "User_Id": 4,
+  "Topic": "Javascript",
+  "Codekata": "done"
+},{
+  "_id": {
+    "$oid": "63ea1ae14d617c5c43742283"
+  },
+  "User_Id": 5,
+  "Topic": "Javascript",
+  "Codekata": "notdone"
+}]

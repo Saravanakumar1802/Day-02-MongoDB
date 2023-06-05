@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "63ea19454d617c5c43742274"
+  },
+  "User_Id": 1,
+  "ClassDate": "2023-01-027",
+  "Status": "Present"
+},{
+  "_id": {
+    "$oid": "63ea1a5f4d617c5c43742277"
+  },
+  "User_Id": 1,
+  "ClassDate": "2023-01-027",
+  "Status": "Present"
+},{
+  "_id": {
+    "$oid": "63ea1a5f4d617c5c43742278"
+  },
+  "User_Id": 2,
+  "ClassDate": "2023-01-027",
+  "Status": "Present"
+},{
+  "_id": {
+    "$oid": "63ea1a5f4d617c5c43742279"
+  },
+  "User_Id": 3,
+  "ClassDate": "2023-01-027",
+  "Status": "Present"
+},{
+  "_id": {
+    "$oid": "63ea1a5f4d617c5c4374227a"
+  },
+  "User_Id": 4,
+  "ClassDate": "2023-01-027",
+  "Status": "Absent"
+},{
+  "_id": {
+    "$oid": "63ea1a5f4d617c5c4374227b"
+  },
+  "User_Id": 5,
+  "ClassDate": "2023-01-027",
+  "Status": "Absent"
+}]
